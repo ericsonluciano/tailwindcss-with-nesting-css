@@ -1,0 +1,11 @@
+html, body {
+	@apply h-full w-full;
+}
+
+#__next {
+	@apply h-full w-full;
+}
+
+.main-wrapper {
+	@apply w-full h-full bg-gray-200 flex items-center justify-center;
+}

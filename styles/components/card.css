@@ -1,0 +1,11 @@
+.card {
+	@apply h-40 w-80 rounded-lg bg-white shadow-lg p-10;
+
+	& > .card-header {
+		@apply border-b border-gray-300 w-full pb-2 font-bold;
+	}
+
+	& > .card-content {
+		@apply pt-4;
+	}
+}
